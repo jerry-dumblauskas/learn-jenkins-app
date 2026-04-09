@@ -32,7 +32,6 @@ pipeline {
                 ls -al
                 node --version
                 npm --version
-                npm ci
                 npm test
                 ls -al
                 '''
